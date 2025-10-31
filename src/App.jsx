@@ -1,13 +1,14 @@
 import React from 'react';
-import './index.css';
+import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import docTopHeader from './components/docsComponents/docTopHeader';
-// import agencyRiutes from './routes/agencyRiutes';
+import docsRoutes from './routes/docsRoutes';
 
 const router = createBrowserRouter([
-  ...docTopHeader()
+  ...docsRoutes()
   
 ]);
+
+
 
 function App() {
   
